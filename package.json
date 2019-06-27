@@ -1,0 +1,28 @@
+{
+  "name": "vc-trigger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index",
+  "module": "./es/index",
+  "scripts": {
+    "test": "echo \"no test specified\"",
+    "compile": "vc-tool run compile --babel-runtime"
+  },
+  "homepage": "https://github.com/jadestrong/vc-trigger.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jadestrong/vc-trigger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.4.5",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
+    "dom-align": "^1.8.3",
+    "lodash": "^4.17.11",
+    "vc-tool": "^1.0.2",
+    "vc-util-collection": "^1.0.0",
+    "vue-ref": "^1.0.6"
+  }
+}
